@@ -71,5 +71,31 @@ body {
         background-color: orange;
         color: #fff;
         font-weight: 700;
-        
+
     }
+.social-media i {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    background: #ccc;
+    line-height: 40px;
+    text-align: center;
+}
+.social-media li {
+    font-size: 0;
+    list-style-type: none;
+}
+.social-media ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social-media {
+    margin: 48px;
+}
+.copy {
+    text-align: center;
+}
